@@ -6,7 +6,7 @@ This project was made during the tech test week at Makers (week 10).
 It was built in Javascript and its testing framework Jasmine, using TDD and OOD.  
 ESLint and Istanbul were used fromthe beginning to improvethe syntax and get the test coverage.  
 
-First of all, I'd would like to specify why I choose this project. My [first tech test](https://github.com/ChocolatineMathou/bank-tech-test) gave me confidence to write a program from scratch in Ruby using TDD and OOD, which was a success. After Makers, I will probably join a company and work on legacy code and I'd like to make sure I'm able to do that. 
+First of all, I'd would like to specify why I choose this project. My [first tech test](https://github.com/ChocolatineMathou/bank-tech-test) gave me confidence to write a program from scratch in Ruby using TDD and OOD, which was a success. After Makers, I will probably join a company and work on legacy code and I'd like to make sure I'm able to do that.
 
 ## User Stories
 
@@ -74,7 +74,7 @@ I translated the specification to make it clearer in my head, as follows:
 	- "Aged Brie": when sell by date value decreases, quality value increases
 	- "Backstage passes":  
 		- when 5 < sell by date <= 10, quality value increases by 2
-		- when 0 < sell by date <= 5, quality value incrases by 3
+		- when 0 < sell by date <= 5, quality value increases by 3
 		- when sell by date <= 0, quality value drops to 0
 	- "Sulfuros" doesn't have sell by date and its quality values remain the same
 	- "Conjured items": sell by date value decreases by 1 while quality value decreases by 2 everyday
