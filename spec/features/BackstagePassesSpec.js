@@ -18,7 +18,7 @@ describe('Backstage Passes', function() {
     expect(gildedRose.items[0].quality).toEqual(22);
   });
 
-  it('incrases quality by three when sell by date < 5', function() {
+  it('increases quality by three when sell by date < 5', function() {
     let backstagePass = new Item('Backstage passes to a TAFKAL80ETC concert', 5, 20)
     const gildedRose = new Shop([backstagePass])
     gildedRose.updateQuality();
@@ -31,7 +31,7 @@ describe('Backstage Passes', function() {
     const gildedRose = new Shop([backstagePass])
     gildedRose.updateQuality();
     expect(gildedRose.items[0].sellIn).toEqual(-1);
-    expect(gildedRose.items[0].quality).toEqual(0);    
+    expect(gildedRose.items[0].quality).toEqual(0);
   });
 
 });

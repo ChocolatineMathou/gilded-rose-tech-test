@@ -18,7 +18,7 @@ describe('Aged Brie', function() {
     expect(gildedRose.items[0].quality).toEqual(50);
   });
 
-  it('increases the quality by 2 when sell by date has passed', function() {
+  it('increases the quality by two when sell by date has passed', function() {
     let brie = new Item('Aged Brie', 0, 30)
     const gildedRose = new Shop([brie])
     gildedRose.updateQuality();

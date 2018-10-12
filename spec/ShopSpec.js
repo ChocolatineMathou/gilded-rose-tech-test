@@ -13,10 +13,4 @@ describe('Shop', function() {
   it('returns a list of item available', function() {
     expect(gildedRose.items[0].name).toEqual("Chocolate cake");
   });
-
-  it('changes the quality and sell by date of a normal item', function() {
-    expect(gildedRose.items[0].name).toEqual('Chocolate cake');
-    expect(gildedRose.items[0].sellIn).toEqual(9);
-    expect(gildedRose.items[0].quality).toEqual(19);
-  });
 });
