@@ -8,7 +8,6 @@ describe('Aged Brie', function() {
     gildedRose.updateQuality();
     expect(gildedRose.items[0].sellIn).toEqual(9);
     expect(gildedRose.items[0].quality).toEqual(31);
-
   });
 
   it('does not increase the quality above 50', function() {

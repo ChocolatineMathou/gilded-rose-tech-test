@@ -75,6 +75,6 @@ I translated the specification to make it clearer in my head, as follows:
 	- "Backstage passes":  
 		- when 5 < sell by date <= 10, quality value increases by 2
 		- when 0 < sell by date <= 5, quality value increases by 3
-		- when sell by date <= 0, quality value drops to 0
+		- when sell by date < 0, quality value drops to 0
 	- "Sulfuros" doesn't have sell by date and its quality values remain the same
 	- "Conjured items": sell by date value decreases by 1 while quality value decreases by 2 everyday
