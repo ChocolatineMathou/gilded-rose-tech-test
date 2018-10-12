@@ -34,4 +34,13 @@ describe('Backstage Passes', function() {
     expect(gildedRose.items[0].quality).toEqual(0);
   });
 
+  it('does not allow quality to be under 0', function() {
+    let backstagePass = new Item('Backstage passes to a TAFKAL80ETC concert', 0, 20)
+    const gildedRose = new Shop([backstagePass])
+    gildedRose.updateQuality();
+    expect(gildedRose.items[0].sellIn).toEqual(-1);
+    expect(gildedRose.items[0].quality).not.toEqual(-1);
+    expect(gildedRose.items[0].quality).toEqual(0);
+  });
+
 });
