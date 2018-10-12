@@ -20,12 +20,6 @@ describe('Shop', function() {
     expect(gildedRose.items[0].quality).toEqual(19);
   });
 
-  it('changes the quality and sell by date of "Aged Brie"', function() {
-    expect(gildedRose.items[1].name).toEqual('Aged Brie');
-    expect(gildedRose.items[1].sellIn).toEqual(8);
-    expect(gildedRose.items[1].quality).toEqual(21);
-  });
-
   it('changes the quality and sell by date of "Backstage passes"', function() {
     expect(gildedRose.items[2].name).toEqual('Backstage passes to a TAFKAL80ETC concert');
     expect(gildedRose.items[2].sellIn).toEqual(9);
